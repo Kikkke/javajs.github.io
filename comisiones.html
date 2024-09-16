@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comisiones del Vendedor</title>
+    <link rel="stylesheet" href="comisiones.css">
+</head>
+<body>
+    <h1>Comisiones del Vendedor</h1>
+    <form id="comisionesForm">
+        <label for="sueldoBase">Sueldo Base:</label>
+        <input type="number" id="sueldoBase" >
+        <label for="venta1">Venta 1:</label>
+        <input type="number" id="venta1"  required>
+        <label for="venta2">Venta 2:</label>
+        <input type="number" id="venta2" required>
+        <label for="venta3">Venta 3:</label>
+        <input type="number" id="venta3"  required>
+        <button type="submit">Calcular Comisiones</button>
+    </form>
+    <p id="resultado"></p>
+
+    <script src="comisiones.js"></script>
+</body>
+</html>

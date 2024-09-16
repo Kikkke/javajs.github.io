@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eliminar Etiquetas Script</title>
+    <link rel="stylesheet" href="eliminar.css">
+</head>
+<body>
+    <h1>Eliminar Etiquetas &lt;script&gt; Peligrosas</h1>
+
+    <form id="scriptForm">
+        <label for="htmlInput">Ingresa el código HTML:</label>
+        <textarea id="htmlInput" rows="8" required></textarea>
+        <button type="submit">Limpiar HTML</button>
+    </form>
+
+    <h2>HTML Limpio</h2>
+    <pre id="cleanedOutput"></pre>
+
+    <script src="eliminar.js"></script>
+</body>
+</html>
